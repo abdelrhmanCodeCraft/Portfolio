@@ -169,7 +169,6 @@ function RadialFlow({ topics, badgeName, centralDotColor = "#FFFFFF" }) {
   return (
     <>
       {isMobile ? (
-        // ✅ Mobile view
         <div className="grid grid-cols-2 gap-3 sm:gap-4">
           {topics.map((topic) => (
             <motion.div
@@ -184,7 +183,6 @@ function RadialFlow({ topics, badgeName, centralDotColor = "#FFFFFF" }) {
           ))}
         </div>
       ) : (
-        // ✅ Large screens (radial view)
         <div
           ref={containerRef}
           className="w-full h-full relative overflow-hidden min-h-[350px] sm:min-h-[400px] md:min-h-[500px]"

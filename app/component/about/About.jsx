@@ -3,7 +3,6 @@
 export default function AboutSection() {
   return (
     <section id="about" className="relative w-full bg-black py-20 px-6 md:px-12 lg:px-24">
-      {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold text-white inline-block relative">
           About Me
@@ -11,7 +10,6 @@ export default function AboutSection() {
         </h2>
       </div>
 
-      {/* Content */}
       <div className="max-w-4xl mx-auto text-center space-y-6">
         <p className="text-lg md:text-xl text-neutral-300 leading-relaxed">
           I’m a dedicated{" "}

@@ -7,17 +7,15 @@ export default function BackgroundPathsDemo() {
     <div
       className="relative w-full flex flex-col px-4 
                  pt-20 md:pt-32 lg:pt-40 pb-12 
-                 md:min-h-screen space-y-8" // فواصل طولية واضحة
+                 md:min-h-screen space-y-8" 
     >
-      {/* الخلفية - بتظهر بس على الشاشات الكبيرة */}
       <div className="hidden md:block absolute inset-0 w-full h-full -z-10">
         <BackgroundPaths />
       </div>
 
-      {/* المحتوى */}
       <div>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center tracking-tight text-white">
-          Hi, Myself{" "}
+          Hi, Im{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-blue-500 to-purple-500">
             Abdelrhman Samy
           </span>{" "}
@@ -45,7 +43,7 @@ export default function BackgroundPathsDemo() {
           </a>
 
           <a
-            href="/Abdelrhman_Samy.pdf"
+            href="/Abdelrhman Samy-Front End Developer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 rounded-full font-medium border border-neutral-400 dark:border-neutral-600 text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition"
